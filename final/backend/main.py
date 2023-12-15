@@ -23,6 +23,12 @@ app = Flask(__name__)
 CORS(app)
 
 def perform_data_processing():
+
+    # The title importance here is to adjust the title weight
+    # Larger title importance means the title has a larger effect on the relevance
+    # The min for this parameter is 0, which means it will assign no extra weight to the title
+    # A recommended title importance for average news articles with a title word count to content word count ratio of 1:45 is suggested to be 0.5 to 1
+    
     drivers = [
       "Max Verstappen", "Logan Sargeant", "Daniel Ricciardo", "Lando Norris",
       "Pierre Gasly", "Sergio Pérez", "Fernando Alonso", "Charles Leclerc",

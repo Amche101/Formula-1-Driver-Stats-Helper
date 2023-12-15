@@ -1,7 +1,13 @@
 # User Setup Guide
 
   - Make sure all the python packages are installed on your local computer
-      - Pip install flask, flask_cors, request...
+      - Pip install flask
+      - Pip install flask_cors
+      - Pip install request
+      - Pip install nltk
+      - Pip install ssl
+      - Pip install BeautifulSoup
+        
   ## Backend Setup
 
   - CD into the correct directory (cd final --> cd backend)
